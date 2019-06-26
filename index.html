@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>7billionstories</title>
+		<meta charset="UTF-8">
+		<meta name="title" content="7 billion stories | The stories of everybody">
+		<meta name="description" content="Make new friends at hubuddies.com">
+		<meta name="keywords" content="7 billion stories,stories,poor,needy,rayyan,ahmed,quraishi,sabah,asif">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/index.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".bg").on("click", function(){
+					var id = parseInt($(this).attr("id"));
+					switch(id){
+						case 1:
+							$("#video").attr("src","https://www.youtube.com/embed/Lp2IV1C0P-s");
+							break;
+						case 2:
+							$("#video").attr("src","https://www.youtube.com/embed/unD48IlsvqQ");
+							break;
+						case 3:
+							$("#video").attr("src","https://www.youtube.com/embed/LcW_dr7W0Mc");
+							break;
+						case 4:
+							$("#video").attr("src","https://www.youtube.com/embed/Y-d11OsK_iU");
+							break;
+						case 5:
+							$("#video").attr("src","https://www.youtube.com/embed/TsDbNkK9_ho");
+							break;
+						case 6:
+							$("#video").attr("src","https://www.youtube.com/embed/SFdymWg8SvY");
+							break;
+					}
+					$(".glass").css("display","block");
+				});
+				$(".glass").on("click", function(){
+					$(".glass").css("display","none");
+					$("#video").attr("src","");
+				});
+			});
+		</script>
+	</head>
+	<body>
+
+		<!-- Main Text -->
+		<div id="main">
+			<h1>7 BILLION STORIES</h1><br>
+			"You never really understand a person until you consider things from his point of view - until you<br>
+			 climb into his skin and walk around in it" - <i>Atticus Finch, To Kill a Mockingbird</i><br><br><br>
+			 <img id="map" src="img/map.png">
+		</div>
+		<!-- Main Text -->
+
+		<!-- Videos -->
+		<div class="glass">
+			<iframe id="video" width="760" height="415" src="" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<!-- Videos -->
+
+		<!-- Background Images -->
+		<img class="background" src="img/1.jpg">
+		<img class="background" src="img/2.jpg">
+		<img class="bg" id="1" src="img/3.jpg">
+		<img class="background" src="img/4.jpg">
+		<img class="background" src="img/5.jpg">
+		<img class="background" src="img/6.jpg">
+		
+		<img class="background" src="img/7.jpg">
+		<img class="background" src="img/8.jpg">
+		<img class="background" src="img/9.jpg">
+		<img class="background" src="img/10.jpg">
+		<img class="bg" id="2" src="img/11.jpg">
+		<img class="background" src="img/12.jpg">
+		
+		<img class="bg" id="3" src="img/13.jpg">
+		<img class="background" src="img/14.jpg">
+		<img class="background" src="img/6.jpg">
+		<img class="background" src="img/16.jpg">
+		<img class="background" src="img/17.jpg">
+		<img class="background" src="img/8.jpg">
+		
+		<img class="background" src="img/17.jpg">
+		<img class="background" src="img/20.jpg">
+		<img class="background" src="img/5.jpg">
+		<img class="background" src="img/7.jpg">
+		<img class="background" src="img/23.jpg">
+		<img class="bg" id="4" src="img/24.jpg">
+		
+		<img class="background" src="img/16.jpg">
+		<img class="bg" id="5" src="img/26.jpg">
+		<img class="background" src="img/27.jpg">
+		<img class="background" src="img/10.jpg">
+		<img class="background" src="img/20.jpg">
+		<img class="background" src="img/9.jpg">
+		
+		<img class="background" src="img/10.jpg">
+		<img class="background" src="img/12.jpg">
+		<img class="background" src="img/1.jpg">
+		<img class="background" src="img/2.jpg">
+		<img class="bg" id="6" src="img/35.jpg">
+		<img class="background" src="img/4.jpg">
+		<!-- Background Images -->
+
+	</body>
+</html>

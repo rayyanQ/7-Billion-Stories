@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,600');
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow-y: hidden;
+}
+.glass{
+	z-index: 2;
+	position:absolute;
+	top:0;
+	left:0;
+	background: rgba(0,0,0,0.7);
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	display: none;
+}
+#video{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#main{
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-family: Raleway;
+	font-size: .9em;
+	line-height: 1.5;
+}
+h1{
+	font-size: 5em;
+	margin: 0;
+	padding: 0;
+}
+#map{
+	width: 350px;
+	min-width: 25%;
+	height: 200px;
+}
+.background{
+	height: 16.666vh;
+	width: 150px;
+	min-width: 16.666%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+}
+.bg{
+	height: 16.666vh;
+	width: 150px;
+	min-width: 16.666%;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+	-webkit-filter: grayscale(100%);
+	filter: brightness(50%) grayscale(100%);
+}
+.bg:hover{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+@media screen and (max-width: 899px){
+	.background, .bg{
+		width: 150px;
+		min-width: 20%;
+	}
+}
+@media screen and (max-width: 749px){
+	.background, .bg{
+		width: 150px;
+		min-width: 25%;
+	}
+}
+@media screen and (max-width: 599px){
+	.background, .bg{
+		width: 150px;
+		min-width: 33.333%;
+	}
+}
+@media screen and (max-width: 499px){
+	.background, .bg{
+		width: 150px;
+		min-width: 50%;
+	}
+}
