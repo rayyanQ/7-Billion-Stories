@@ -1,2 +1,2 @@
 # 7-Billion-Stories
-Stories of the common people.
+Website for a client. Stories of the common people.
